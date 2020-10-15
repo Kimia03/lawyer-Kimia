@@ -1,0 +1,65 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* banner part start */
+    .caro-img{
+        min-height: 150vh;
+    }
+    .cap h1{
+        font-size: 30px;
+    }
+    .banner{
+        margin-bottom: 20px;
+    }
+    /* banner part end */
+    /* news & event start */
+    .card-2{
+        width: 18rem;;
+    }
+    /* news & event end */
+
+    /* footer part start */
+    .f-text{
+        text-align: center;
+    }
+
+    .f-icons{
+        text-align: center;
+    }
+    /* footer part end */
+   
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+     /* news & event start */
+    .card-2{
+        width: 18rem;;
+    }
+    /* news & event end */
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.f-icons{
+        text-align: right;
+    
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .f-icons{
+        text-align: right;
+    
+ }  
+    
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+.f-icons{
+        text-align: right;
+    
+ }
+    
+ }

@@ -1,0 +1,534 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header part start */
+header{}
+nav{
+    margin: 10px 0;
+}
+.menu {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+     
+.menu:hover{
+    
+   
+}
+ .n-toggler{
+     border-color:#1f4f87 !important;
+ }
+ .n-toggler:hover{
+     border-color: #f2622c !important;
+ }
+.item{
+    color:#1f4f87 !important;
+    transition: 0.6s all ease-in-out;   
+}
+
+.item:hover{
+    color: #f2622c !important;
+}
+/* header part end */
+/* banner part start */
+.banner{
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   position: relative;
+}
+.banner2{
+     background-image: url(../images/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+     
+}
+.arrow{
+        content: '';
+    position: absolute;
+    bottom: -45%;
+    left: 50%;
+    transform: translate(-50%,45%);
+    color: #fff;
+}
+.banner:hover .arrow{
+     bottom: -55%;
+     transform: translate(-50%,55%);
+     transition: .3s all ease-in-out;
+
+}
+.banner2:hover .arrow{
+     bottom: -55%;
+     transform: translate(-50%,55%);
+     transition: .3s all ease-in-out;
+
+}
+
+.cap{
+    /* content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    margin-top: 140px;
+} 
+
+.cap h1{
+   
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    /* padding: 50px 140px; */
+    color: #fff;
+}
+/* banner part end */
+/* who we are part start */
+.whoweare{
+    background-image: url(../images/we-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.who{
+    margin: 100px 0;
+    
+}
+.heading {
+    cursor: pointer;
+    margin-top: 50px;
+}
+.heading span{
+    display: block;
+    width:30px;
+    height: 5px;
+    background-color: #f2622c;
+    margin-bottom: 20px;
+    
+}
+
+ .heading:hover span{
+    width: 60px;
+     transition: .8s all ease-in-out;
+     
+}
+.heading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1f4f87;
+    text-transform: uppercase;    
+}
+
+.we-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b0b0b1;
+    margin: 20px 0;
+}
+
+/* who we are part end */
+
+/* what we do start*/
+.whatwedo{
+    background-image: url(../images/bg2.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-2 {
+    cursor: pointer;
+    margin-top: 50px;
+    position: relative;
+}
+.heading-2 span{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: block;
+    width:30px;
+    height: 5px;
+    background-color: #f2622c;
+    
+}
+
+ .heading-2:hover span{
+    width: 60px;
+    left: 35%;
+     transition: .5s all ease-in-out;
+     
+}
+.heading-2 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1f4f87;
+    text-transform: uppercase; 
+    margin-top: 20px;   
+}
+
+/* what we do content */
+
+.we-do{
+    position: relative;
+
+}
+
+.we-do::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7a7aaf+0,2b3083+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(122,122,175,0) 0%, rgba(43,48,131,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(122,122,175,0) 0%,rgba(43,48,131,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(122,122,175,0) 0%,rgba(43,48,131,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a7aaf', endColorstr='#2b3083',GradientType=0 ); /* IE6-9 */
+
+}
+.we-do img{
+    
+
+}
+.we-do:hover::before{
+     height: 100%;
+     bottom: 0;
+     transition: .5s all ease-in-out;
+     
+}
+.what-we-content{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.what-we-content h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    
+}
+.we-icon{
+    position: relative;
+    bottom: 20%;
+    left:   10%;
+    transform: translate(-10%,-20%);
+   
+}
+.we-icon i{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+}
+/* what we do end */
+
+/* our attorneys part start */
+.our-attorney{
+    background-image: url(../images/our-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:70px 0;
+}
+.our-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.our-imgs{
+    margin-right: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.our-imgs::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7a7aaf+0,23194a+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(122,122,175,0) 0%, rgba(35,25,74,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(122,122,175,0) 0%,rgba(35,25,74,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(122,122,175,0) 0%,rgba(35,25,74,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007a7aaf', endColorstr='#23194a',GradientType=0 ); /* IE6-9 */
+
+}
+.our-imgs:hover::before{
+    height: 100%;
+    bottom: 0;
+    transition: .5s all ease-in-out;
+
+}
+.our-content{
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 85%;
+    transform: translate(-10%,-85%);
+    opacity: 0;
+}
+.our-imgs:hover .our-content{
+    opacity: 1;
+    left: 50%;
+    transform: translate(-50%,-85%);
+    transition: .3s all ease-in-out;
+}
+
+.our-content h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    
+}
+.we-content h6{
+    color: #f2622c !important;
+    font-size: 18px;
+    font-weight: 400 ;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: progress;
+}
+/* our attorneys part end */
+
+/* the languages part start */
+.the-languages{
+    margin: 100px 0;
+}
+.card-heading {
+    margin-bottom: 0.75rem;
+    color: #23194a;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.cards{
+    border: none;
+}
+.card-content{
+    color: #b1b0b1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px;
+
+}
+.card-content p{
+    color: #b1b0b1;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.we-content .h6{
+    font-weight: 700;
+}
+/* the languages part end */
+
+
+
+/* contact us start */
+.contact-us{
+    background-image: url(../images/bg5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    padding: 50px 0;
+}
+
+.colum{
+    padding: 0%;
+}
+.con-card{
+    background-color: transparent;
+    color:#fff;
+    border: #b0b0b1 1px solid;
+    border-radius: 0%;
+    margin:30px 0;
+
+}
+.con-body{
+    padding: 75px;
+}
+.con-title, .con-text1{
+    font-size: 24px;
+    font-weight: 400 ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.con-text1{
+
+}
+.con-text2{
+    font-size: 24px;
+    font-weight: 700 ;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.con-text3{
+    font-size: 16px;
+    color: #808bbf;
+    font-weight: 400;
+
+}
+.con-h1{
+    color:#fff !important;
+    margin-bottom: 50px;
+}
+.first-name{
+    
+}
+.last-name{
+    
+}
+.email{
+    
+}
+.phone{
+    
+}
+.message{
+   
+}
+.btn-send{
+    background-color: #f2622c;
+    color:#fff;
+    padding: 10px 100px;
+    border-radius: 0%;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.btn-send:hover{
+    background-color: #b0b0b1;
+    color:#f2622c;
+}
+.f-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: #808bbf 1px solid;
+    border-radius: 0%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+/* contact us end */
+
+/* news & events part start */
+.news-event{
+    background-image: url(../images/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    
+}
+
+/* news content part */
+.card-2{
+    background-color: transparent;
+    border: none;
+    border-bottom: #b0b0b1 solid 1px ;
+    border-radius: 0px;
+    margin: 30px 0;
+}
+.c-body{
+    padding: 0px;
+
+}
+.c-body i{
+    margin: 20px 0;
+    color: #f2622c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.c-title{
+    color: #1f4f87;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.c-text{
+    color: #b1b0b1;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+
+}
+/* news & events part end */
+
+/* footer part start */
+footer{
+    background-color: #0c1234;
+    padding: 40px 0;
+}
+.copy{
+     color: #616ca8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.f-nav .copy {
+    color: #616ca8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.copy:hover{
+    color: #f2622c;
+    text-decoration: none;
+}
+
+.f-link{
+    color: #b1b7dd;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.f-link:hover{
+    color: #f2622c;
+    font-size: 22px;
+}
+/* footer part end */       
+
+
+
+
+
+
